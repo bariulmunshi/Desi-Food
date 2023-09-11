@@ -4,4 +4,4 @@
 3. Added Deal of the Day section
 4. Added Meet the team section
 5. Added Why Choose Us
-6. 
+6. Added Footer section
