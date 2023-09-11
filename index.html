@@ -127,8 +127,212 @@
         </div>
       </div>
     </header>
-    <main>
-
+    <main class="container mx-auto">
+       <!-- section Deal of the day -->
+       <section class="my-40">
+        <div
+          class="flex flex-col text-center md:text-start md:flex-row justify-between pb-12"
+        >
+          <div>
+            <h3 class="text-4xl font-bold text-[#121212] mb-6">
+              Deal of the day
+            </h3>
+            <p class="text-base">
+              Contrary to popular belief, is not simply random text. It has
+              roots in a piece of classical <br />
+              Latin literature from 45 BC, making it over 2000 years old.
+            </p>
+          </div>
+          <div class="flex justify-center gap-3 items-center">
+            <div class="flex justify-center items-center flex-col">
+              <h2 class="text-[#121212] text-5xl font-extrabold">
+                29 <span>:</span>
+              </h2>
+              <p>Days</p>
+            </div>
+            <div class="flex justify-center items-center flex-col">
+              <h2 class="text-[#121212] text-5xl font-extrabold">
+                15<span>:</span>
+              </h2>
+              <p>Hours</p>
+            </div>
+            <div class="flex justify-center items-center flex-col">
+              <h2 class="text-[#121212] text-5xl font-extrabold">
+                25 <span>:</span>
+              </h2>
+              <p>Minutes</p>
+            </div>
+            <div class="flex justify-center items-center flex-col">
+              <h2 class="text-[#121212] text-5xl font-extrabold">
+                08 <span>:</span>
+              </h2>
+              <p>seconds</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Item-1 -->
+          <div class="p-12 space-y-7 text-center border rounded">
+            <div class="flex justify-center items-center">
+              <img class="w-32 h-32" src="images/fruit6.png" alt="" />
+            </div>
+            <h3 class="text-[#121212] font-bold text-xl">12.90$ - 18.85$</h3>
+            <hr />
+            <p>Apples</p>
+            <i class="fa-solid fa-star text-[#F85559]"></i>
+            <i class="fa-solid fa-star-half-stroke text-[#F85559]"></i>
+            <i class="fa-regular fa-star text-[#FBC0A8]"></i>
+            <i class="fa-regular fa-star text-[#FBC0A8]"></i>
+            <i class="fa-regular fa-star text-[#FBC0A8]"></i> 
+            <!-- <h4 class="text-[#F85559] font-semibold text-[18px]">Details</h4> -->
+            <!-- Open the modal using ID.showModal() method -->
+            <br>
+<button class="btn px-8 py-5 bg-[#F85559] text-white rounded-3xl mt-12 " onclick="my_modal_1.showModal()">Apples</button>
+<dialog id="my_modal_1" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box">
+    <div class="flex justify-center items-center">
+      <img class="w-32 h-32" src="images/fruit6.png" alt="" />
+    </div>
+    <p class="font-bold text-2xl">Apples</p>
+    <p class="py-4">Professional employees are there for you to pick the most <br> amazing and fresh fruits.</p>
+    <i class="fa-solid fa-star text-[#F85559]"></i>
+            <i class="fa-solid fa-star-half-stroke text-[#F85559]"></i>
+            <i class="fa-regular fa-star text-[#FBC0A8]"></i>
+            <i class="fa-regular fa-star text-[#FBC0A8]"></i>
+            <i class="fa-regular fa-star text-[#FBC0A8]"></i> 
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn px-8 py-5 bg-[#F85559] text-white rounded-3xl mt-12">Close</button>
+        <button class="btn px-8 py-5 bg-[#F85559] text-white rounded-3xl mt-12">Buy Now</button>
+      </form>
+    </div>
+  </div>
+</dialog>
+          </div>
+          <!-- Item-2 -->
+          <div class="p-12 space-y-7 text-center border rounded">
+            <div class="flex justify-center items-center">
+              <img class="w-32 h-32" src="images/fruit7.png" alt="" />
+            </div>
+            <h3 class="text-[#121212] font-bold text-xl">12.90$ - 18.85$</h3>
+            <hr />
+            <p>Apples</p>
+            <i class="fa-solid fa-star text-[#F85559]"></i>
+            <i class="fa-solid fa-star-half-stroke text-[#F85559]"></i>
+            <i class="fa-regular fa-star text-[#FBC0A8]"></i>
+            <i class="fa-regular fa-star text-[#FBC0A8]"></i>
+            <i class="fa-regular fa-star text-[#FBC0A8]"></i> 
+            <!-- <h4 class="text-[#F85559] font-semibold text-[18px]">Details</h4> -->
+            <!-- Open the modal using ID.showModal() method -->
+            <br>
+<button class="btn px-8 py-5 bg-[#F85559] text-white rounded-3xl mt-12 " onclick="my_modal_2.showModal()">Orange</button>
+<dialog id="my_modal_2" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box">
+    <div class="flex justify-center items-center">
+      <img class="w-32 h-32" src="images/fruit7.png" alt="" />
+    </div>
+    <p class="font-bold text-2xl">Apples</p>
+    <p class="py-4">Professional employees are there for you to pick the most <br> amazing and fresh fruits.</p>
+    <i class="fa-solid fa-star text-[#F85559]"></i>
+            <i class="fa-solid fa-star-half-stroke text-[#F85559]"></i>
+            <i class="fa-regular fa-star text-[#FBC0A8]"></i>
+            <i class="fa-regular fa-star text-[#FBC0A8]"></i>
+            <i class="fa-regular fa-star text-[#FBC0A8]"></i> 
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn px-8 py-5 bg-[#F85559] text-white rounded-3xl mt-12">Close</button>
+        <button class="btn px-8 py-5 bg-[#F85559] text-white rounded-3xl mt-12">Buy Now</button>
+      </form>
+    </div>
+  </div>
+</dialog>
+          </div>
+          <!-- Item-3 -->
+          <div class="p-12 space-y-7 text-center border rounded">
+            <div class="flex justify-center items-center">
+              <img class="w-32 h-32" src="images/fruit8.png" alt="" />
+            </div>
+            <h3 class="text-[#121212] font-bold text-xl">12.90$ - 18.85$</h3>
+            <hr />
+            <p>Apples</p>
+            <i class="fa-solid fa-star text-[#F85559]"></i>
+            <i class="fa-solid fa-star-half-stroke text-[#F85559]"></i>
+            <i class="fa-regular fa-star text-[#FBC0A8]"></i>
+            <i class="fa-regular fa-star text-[#FBC0A8]"></i>
+            <i class="fa-regular fa-star text-[#FBC0A8]"></i> 
+            <!-- <h4 class="text-[#F85559] font-semibold text-[18px]">Details</h4> -->
+            <!-- Open the modal using ID.showModal() method -->
+            <br>
+<button class="btn px-8 py-5 bg-[#F85559] text-white rounded-3xl mt-12" onclick="my_modal_3.showModal()">Red Dragon</button>
+<dialog id="my_modal_3" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box">
+    <div class="flex justify-center items-center">
+      <img class="w-32 h-32" src="images/fruit8.png" alt="" />
+    </div>
+    <p class="font-bold text-2xl">Apples</p>
+    <p class="py-4">Professional employees are there for you to pick the most <br> amazing and fresh fruits.</p>
+    <i class="fa-solid fa-star text-[#F85559]"></i>
+            <i class="fa-solid fa-star-half-stroke text-[#F85559]"></i>
+            <i class="fa-regular fa-star text-[#FBC0A8]"></i>
+            <i class="fa-regular fa-star text-[#FBC0A8]"></i>
+            <i class="fa-regular fa-star text-[#FBC0A8]"></i> 
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn px-8 py-5 bg-[#F85559] text-white rounded-3xl mt-12">Close</button>
+        <button class="btn px-8 py-5 bg-[#F85559] text-white rounded-3xl mt-12">Buy Now</button>
+      </form>
+    </div>
+  </div>
+</dialog>
+          </div>
+          <div class="p-12 space-y-7 text-center border rounded">
+            <div class="flex justify-center items-center">
+              <img class="w-32 h-32" src="images/fruit9.png" alt="" />
+            </div>
+            <h3 class="text-[#121212] font-bold text-xl">12.90$ - 18.85$</h3>
+            <hr />
+            <p>Apples</p>
+            <i class="fa-solid fa-star text-[#F85559]"></i>
+            <i class="fa-solid fa-star-half-stroke text-[#F85559]"></i>
+            <i class="fa-regular fa-star text-[#FBC0A8]"></i>
+            <i class="fa-regular fa-star text-[#FBC0A8]"></i>
+            <i class="fa-regular fa-star text-[#FBC0A8]"></i> 
+            <!-- <h4 class="text-[#F85559] font-semibold text-[18px]">Details</h4> -->
+            <!-- Open the modal using ID.showModal() method -->
+            <br>
+<button class="btn px-8 py-5 bg-[#F85559] text-white rounded-3xl mt-12" onclick="my_modal_4.showModal()">Banana</button>
+<dialog id="my_modal_4" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box">
+    <div class="flex justify-center items-center">
+      <img class="w-32 h-32" src="images/fruit9.png" alt="" />
+    </div>
+    <p class="font-bold text-2xl">Apples</p>
+    <p class="py-4">Professional employees are there for you to pick the most <br> amazing and fresh fruits.</p>
+    <i class="fa-solid fa-star text-[#F85559]"></i>
+            <i class="fa-solid fa-star-half-stroke text-[#F85559]"></i>
+            <i class="fa-regular fa-star text-[#FBC0A8]"></i>
+            <i class="fa-regular fa-star text-[#FBC0A8]"></i>
+            <i class="fa-regular fa-star text-[#FBC0A8]"></i> 
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn px-8 py-5 bg-[#F85559] text-white rounded-3xl mt-12">Close</button>
+        <button class="btn px-8 py-5 bg-[#F85559] text-white rounded-3xl mt-12">Buy Now</button>
+      </form>
+    </div>
+  </div>
+</dialog>
+          </div>
+        </div>
+        <div class="text-center">
+          <button class="px-8 py-5 bg-[#F85559] text-white rounded-3xl mt-12">
+            Shop All
+          </button>
+        </div>
+      </section>
     </main>
     <footer>
 
