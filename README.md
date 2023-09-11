@@ -3,3 +3,5 @@
 2. Added header(Navbar & Banner) section
 3. Added Deal of the Day section
 4. Added Meet the team section
+5. Added Why Choose Us
+6. 
